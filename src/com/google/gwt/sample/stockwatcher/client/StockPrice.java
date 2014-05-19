@@ -27,6 +27,7 @@ public class StockPrice {
 	  }
 
 	  public double getChangePercent() {
+		  
 	    return 100.0 * this.change / this.price;
 	  }
 
