@@ -27,7 +27,7 @@ public class StockPrice {
 	  }
 
 	  public double getChangePercent() {
-		  
+		  // Fixed an issue
 	    return 100.0 * this.change / this.price;
 	  }
 
